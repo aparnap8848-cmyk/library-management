@@ -1,0 +1,52 @@
+# api call for user registration
+
+###
+GET  http://127.0.0.1:8000/books
+Content-Type: application/json
+
+
+  {
+    "name":"Aparna",
+    "password":"aparna123"
+  }
+
+# api call for login
+###
+GET http://127.0.0.1:8000/books
+Content-Type: application/json
+
+{
+    "name":"aparna",
+    "phone":8965231470,
+    "email":"aparna1@gmail.come",
+    "password":"aparna123"
+}
+
+# api call for token 
+
+
+
+# api call for create book
+###
+GET http://127.0.0.1:8000/
+Content-Type: application/json
+
+{
+    "book":"atomic habit",
+    "author":"james clear",
+    "category":"non-fiction",
+    "price":"499",
+    "publish_year":"2012,01,26",
+    "available":"yes"
+
+}
+
+# api call for all books
+
+###
+GET http://127.0.0.1:8000/books 
+
+
+# api call for get single book
+###
+GET 
